@@ -1,0 +1,20 @@
+{
+  "name": "bun-prisma",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "^5.19.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.19.1",
+    "tsx": "^4.19.1"
+  },
+  "scripts": {
+    "run:bun": "bun src/index.ts",
+    "run:node": "tsx --env-file=.env src/index.ts"
+  }
+}
